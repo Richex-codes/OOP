@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .img1 {
+    width: 300px;
+    position: relative;
+  }
+  
+  .img1 i {
+    font-size: 40px;
+    color: palevioletred;
+  }
+  
+  .fa-heart1 {
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   
+  }
+  
+  .img1 img {
+    width: 100%;
+  }
+  
+  .price-button {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .price-button button {
+    padding: 5px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .price-button p {
+    color: #adadad;
+  }
+  
+  .values1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .names {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+  
+  /* .quantity1{
+      display: flex;
+  } */
+  
+  #quantity {
+    width: 50px;
+    outline: none;
+    text-align: center;
+  }
+  
+  #quantity {
+    width: 50px;
+    outline: none;
+    text-align: center;
+  }
+  
+  .remove1,
+  .remove2 {
+    margin-left: 20px;
+    padding: 5px;
+  }
+  
+  .items1,
+  .items2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+  }
+  
+  .everything {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 540px;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .purchase button {
+    margin-top: 40px;
+    padding: 10px 40px;
+    background-color: aqua;
+    border: none;
+  }
+  
+  .purchase {
+    display: flex;
+    justify-content: center;
+  }
+  
